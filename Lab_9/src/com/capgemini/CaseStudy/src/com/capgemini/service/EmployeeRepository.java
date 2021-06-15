@@ -30,9 +30,9 @@ public class EmployeeRepository {
 	Department tech = new Department(3,"Tech", 4);
 	Department errands = new Department(4,"Errands", 5);
 	
-	Employee e1 = new Employee(1,"Rajarshi","Bhattacharya","raj@gmail.com","9876543210", LocalDate.of(2021, 10, 24), "Team Lead", 30000.0, 6, hr );
-	Employee e2 = new Employee(2,"Dibyendu","Ganguly","dibyendu@gmail.com","9874113493",  LocalDate.of(2021, 10, 19) , "Manager", 30000.0, tech );
-	Employee e3 = new Employee(3,"Utkarsh","Parashar","utkarsh@gmail.com","9939393907", LocalDate.of(2020, 4, 10), "Manager", 30000.0, 1, cash );
+	Employee e1 = new Employee(1,"Rajarshi","Bhattacharya","raj@gmail.com","9876543210", LocalDate.of(2021, 10, 24), "Manager", 30000.0, tech );
+	Employee e2 = new Employee(2,"Dibyendu","Ganguly","dibyendu@gmail.com","9874113493",  LocalDate.of(2021, 10, 19) , "Team Lead", 30000.0, 6, tech );
+	Employee e3 = new Employee(3,"Utkarsh","Parashar","utkarsh@gmail.com","9939393907", LocalDate.of(2020, 4, 10), "Team Lead", 30000.0, 1, cash );
 	Employee e4 = new Employee(4,"Pulak","Das","pulak@gmail.com","9874112293", LocalDate.of(2020, 6, 20), "Cleark", 30000.0, 6 );
 	
 	
