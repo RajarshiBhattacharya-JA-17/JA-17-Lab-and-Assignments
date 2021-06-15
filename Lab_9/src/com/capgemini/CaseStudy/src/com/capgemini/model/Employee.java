@@ -6,10 +6,11 @@ package com.capgemini.model;
 import java.time.LocalDate;
 
 /**
- * @author DIBYENDU
+ * @author Rajarshi
  *
  */
 public class Employee {
+	
 	private Integer employeeId;
 	private String firstName;
 	private String lastName;
@@ -20,10 +21,12 @@ public class Employee {
 	private Double salary;
 	private Integer managerId;
 	private Department department;
+	
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 	public Employee(Integer employeeId, String firstName, String lastName, String email, String phoneNumber,
 			LocalDate hireDate, String designation, Double salary, Integer managerId, Department department) {
 		super();
@@ -38,6 +41,7 @@ public class Employee {
 		this.managerId = managerId;
 		this.department = department;
 	}
+	
 	/**
 	 * 
 	 * @param employeeId
@@ -63,6 +67,7 @@ public class Employee {
 		this.salary = salary;
 		this.managerId = managerId;
 	}
+	
 	/**
 	 * s
 	 * @param employeeId
@@ -88,6 +93,7 @@ public class Employee {
 		this.salary = salary;
 		this.department = department;
 	}
+	
 	/**
 	 * 
 	 * @param employeeId
@@ -111,30 +117,35 @@ public class Employee {
 		this.designation = designation;
 		this.salary = salary;
 	}
+	
 	/**
 	 * @return the employeeId
 	 */
 	public Integer getEmployeeId() {
 		return employeeId;
 	}
+	
 	/**
-	 * @param employeeId the employeeId to set
+	 * @param employeeId
 	 */
 	public void setEmployeeId(Integer employeeId) {
 		this.employeeId = employeeId;
 	}
+	
 	/**
 	 * @return the firstName
 	 */
 	public String getFirstName() {
 		return firstName;
 	}
+	
 	/**
-	 * @param firstName the firstName to set
+	 * @param firstName
 	 */
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+	
 	/**
 	 * @return the lastName
 	 */
@@ -142,7 +153,7 @@ public class Employee {
 		return lastName;
 	}
 	/**
-	 * @param lastName the lastName to set
+	 * @param lastName
 	 */
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
@@ -161,7 +172,7 @@ public class Employee {
 		return email;
 	}
 	/**
-	 * @param email the email to set
+	 * @param email
 	 */
 	public void setEmail(String email) {
 		this.email = email;
@@ -173,7 +184,7 @@ public class Employee {
 		return phoneNumber;
 	}
 	/**
-	 * @param phoneNumber the phoneNumber to set
+	 * @param phoneNumber
 	 */
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
@@ -185,7 +196,7 @@ public class Employee {
 		return hireDate;
 	}
 	/**
-	 * @param hireDate the hireDate to set
+	 * @param hireDate
 	 */
 	public void setHireDate(LocalDate hireDate) {
 		this.hireDate = hireDate;
@@ -197,7 +208,7 @@ public class Employee {
 		return designation;
 	}
 	/**
-	 * @param designation the designation to set
+	 * @param designation
 	 */
 	public void setDesignation(String designation) {
 		this.designation = designation;
@@ -209,7 +220,7 @@ public class Employee {
 		return salary;
 	}
 	/**
-	 * @param salary the salary to set
+	 * @param salary
 	 */
 	public void setSalary(Double salary) {
 		this.salary = salary;
@@ -221,7 +232,7 @@ public class Employee {
 		return managerId;
 	}
 	/**
-	 * @param managerId the managerId to set
+	 * @param managerId
 	 */
 	public void setManagerId(Integer managerId) {
 		this.managerId = managerId;
@@ -236,7 +247,7 @@ public class Employee {
 		return department.getDepartmentName();
 	}
 	/**
-	 * @param department the department to set
+	 * @param department
 	 */
 	public void setDepartment(Department department) {
 		this.department = department;
