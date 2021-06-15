@@ -4,7 +4,7 @@
 package com.capgemini.model;
 
 /**
- * @author DIBYENDU
+ * @author Rajarshi
  *
  */
 public class Department {
@@ -22,13 +22,13 @@ public class Department {
 		this.managerId = managerId;
 	}
 	/**
-	 * @return the departmentId
+	 * @return departmentId
 	 */
 	public Integer getDepartmentId() {
 		return departmentId;
 	}
 	/**
-	 * @param departmentId the departmentId to set
+	 * @param departmentId
 	 */
 	public void setDepartmentId(Integer departmentId) {
 		this.departmentId = departmentId;
@@ -40,7 +40,7 @@ public class Department {
 		return departmentName;
 	}
 	/**
-	 * @param departmentName the departmentName to set
+	 * @param departmentName
 	 */
 	public void setDepartmentName(String departmentName) {
 		this.departmentName = departmentName;
@@ -52,7 +52,7 @@ public class Department {
 		return managerId;
 	}
 	/**
-	 * @param managerId the managerId to set
+	 * @param managerId
 	 */
 	public void setManagerId(Integer managerId) {
 		this.managerId = managerId;
